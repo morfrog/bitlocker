@@ -1,0 +1,19 @@
+﻿<Window x:Class="Bitlocker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bitlocker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" >
+    <Grid>
+        <Grid x:Name="gridDrives" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="384">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="Drive"/>
+                <ColumnDefinition x:Name="Size"/>
+                <ColumnDefinition x:Name="Status"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+    </Grid>
+</Window>
