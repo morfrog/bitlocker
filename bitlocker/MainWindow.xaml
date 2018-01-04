@@ -13,6 +13,7 @@
                 <ColumnDefinition x:Name="Size"/>
                 <ColumnDefinition x:Name="Status"/>
             </Grid.ColumnDefinitions>
+            <Grid Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="100" Margin="97,146,0,0" VerticalAlignment="Top" Width="100"/>
         </Grid>
 
     </Grid>
